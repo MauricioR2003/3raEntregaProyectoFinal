@@ -1,0 +1,8 @@
+@mixin colorYbg($color, $background){
+	color:$color;
+	background-color:$background;
+}
+
+footer{
+	@include colorYbg (red, blue)
+}
